@@ -1,0 +1,390 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 39979,
+      "max": [
+        11.313248634338379,
+        11.823451042175293,
+        28.213607788085938
+      ],
+      "min": [
+        -11.606328964233398,
+        -4.3478693962097168,
+        -0.50222164392471313
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 479748,
+      "componentType": 5126,
+      "count": 39979,
+      "max": [
+        0.99992078542709351,
+        0.99998444318771362,
+        0.99997144937515259
+      ],
+      "min": [
+        -0.99999982118606567,
+        -0.99998122453689575,
+        -0.99985158443450928
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 39979,
+      "max": [
+        0.99866217374801636,
+        0.99999958276748657,
+        0.99997532367706299,
+        1
+      ],
+      "min": [
+        -0.999977707862854,
+        -1,
+        -0.99999839067459106,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 39979,
+      "max": [
+        0.99971801042556763,
+        0.99877899885177612
+      ],
+      "min": [
+        0.00024399999529123306,
+        0.00024500000290572643
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 150012,
+      "max": [
+        39978
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 959496,
+      "componentType": 5126,
+      "count": 6328,
+      "max": [
+        4.3725504875183105,
+        13.034476280212402,
+        8.395543098449707
+      ],
+      "min": [
+        -4.5932712554931641,
+        6.5482001304626465,
+        6.2569122314453125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1035432,
+      "componentType": 5126,
+      "count": 6328,
+      "max": [
+        0.99958646297454834,
+        0.93901163339614868,
+        0.9996638298034668
+      ],
+      "min": [
+        -0.99958646297454834,
+        -0.99930959939956665,
+        -0.99994105100631714
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 600048,
+      "componentType": 5125,
+      "count": 37944,
+      "max": [
+        6327
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Rigsters (https://sketchfab.com/rigsters)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/ganesha-wooden-mask-2beef44155d9435a8a71f5bfcdc21a9b",
+      "title": "Ganesha wooden mask"
+    },
+    "generator": "Sketchfab-8.66.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 751824,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 319832,
+      "byteOffset": 751824,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1111368,
+      "byteOffset": 1071656,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 639664,
+      "byteOffset": 2183024,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2822688,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/ganesh_low_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/ganesh_low_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/ganesh_low_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "ganesh_low",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "ganesh_low_tusks",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.66716277970738602,
+          0.018326801914371513,
+          0.018326801914371513,
+          0
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ganesh_low_ganesh_low_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "ganesh_low_tusks_ganesh_low_tusks_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        -0.99990534782409668,
+        -0.00037773390067741275,
+        0.01375249121338129,
+        0,
+        -0.013752492144703865,
+        0,
+        -0.99990540742874146,
+        0,
+        0.00037769819027744234,
+        -0.99999994039535522,
+        -5.1947999963886105e-06,
+        0,
+        -0.48730969429016113,
+        -9.5132608413696289,
+        -9.5090312957763672,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "bbc2a47a5d894b34aff949136009d4bb.fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "ganesh_low"
+    },
+    {
+      "mesh": 0,
+      "name": "ganesh_low_ganesh_low_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "ganesh_low_tusks"
+    },
+    {
+      "mesh": 1,
+      "name": "ganesh_low_tusks_ganesh_low_tusks_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
