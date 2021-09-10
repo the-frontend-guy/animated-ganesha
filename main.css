@@ -1,21 +1,69 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 html,
-body
-{
-    overflow: hidden;
+body {
+  overflow: hidden;
 }
 
-.webgl
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    outline: none;
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+}
+
+.modal-content {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+h3 {
+  font-size: 1rem;
+  color: whitesmoke;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #3ef5dd;
+  font-size: 0.7rem;
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  border: 2px solid #ffca00;
+  border-radius: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1rem;
+  color: #ffca00;
+  margin-top: 3.5rem;
+  cursor: pointer;
 }
 
 
